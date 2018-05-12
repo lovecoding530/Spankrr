@@ -1,0 +1,213 @@
+PODS:
+  - Braintree (4.10.0):
+    - Braintree/Card (= 4.10.0)
+    - Braintree/Core (= 4.10.0)
+    - Braintree/PayPal (= 4.10.0)
+    - Braintree/UI (= 4.10.0)
+  - Braintree/Card (4.10.0):
+    - Braintree/Core
+  - Braintree/Core (4.10.0)
+  - Braintree/PayPal (4.10.0):
+    - Braintree/Core
+    - Braintree/PayPalOneTouch
+  - Braintree/PayPalDataCollector (4.10.0):
+    - Braintree/Core
+    - Braintree/PayPalUtils
+  - Braintree/PayPalOneTouch (4.10.0):
+    - Braintree/Core
+    - Braintree/PayPalDataCollector
+    - Braintree/PayPalUtils
+  - Braintree/PayPalUtils (4.10.0)
+  - Braintree/UI (4.10.0):
+    - Braintree/Card
+    - Braintree/Core
+  - Braintree/UnionPay (4.10.0):
+    - Braintree/Card
+    - Braintree/Core
+  - BraintreeDropIn (5.3.0):
+    - BraintreeDropIn/DropIn (= 5.3.0)
+  - BraintreeDropIn/DropIn (5.3.0):
+    - Braintree/Card (~> 4.0)
+    - Braintree/Core (~> 4.0)
+    - Braintree/UnionPay (~> 4.0)
+    - BraintreeDropIn/UIKit
+  - BraintreeDropIn/UIKit (5.3.0)
+  - CropViewController (2.3.6)
+  - Firebase/Auth (4.8.0):
+    - Firebase/Core
+    - FirebaseAuth (= 4.4.1)
+  - Firebase/Core (4.8.0):
+    - FirebaseAnalytics (= 4.0.5)
+    - FirebaseCore (= 4.0.13)
+  - Firebase/Database (4.8.0):
+    - Firebase/Core
+    - FirebaseDatabase (= 4.1.3)
+  - Firebase/Messaging (4.8.0):
+    - Firebase/Core
+    - FirebaseMessaging (= 2.0.8)
+  - Firebase/Storage (4.8.0):
+    - Firebase/Core
+    - FirebaseStorage (= 2.1.1)
+  - FirebaseAnalytics (4.0.5):
+    - FirebaseCore (~> 4.0)
+    - FirebaseInstanceID (~> 2.0)
+    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+    - nanopb (~> 0.3)
+  - FirebaseAuth (4.4.1):
+    - FirebaseAnalytics (~> 4.0)
+    - GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - FirebaseCore (4.0.13):
+    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+  - FirebaseDatabase (4.1.3):
+    - FirebaseAnalytics (~> 4.0)
+    - FirebaseCore (~> 4.0)
+    - leveldb-library (~> 1.18)
+  - FirebaseInstanceID (2.0.8):
+    - FirebaseCore (~> 4.0)
+  - FirebaseMessaging (2.0.8):
+    - FirebaseAnalytics (~> 4.0)
+    - FirebaseCore (~> 4.0)
+    - FirebaseInstanceID (~> 2.0)
+    - GoogleToolboxForMac/Logger (~> 2.1)
+    - Protobuf (~> 3.1)
+  - FirebaseStorage (2.1.1):
+    - FirebaseAnalytics (~> 4.0)
+    - FirebaseCore (~> 4.0)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - FirebaseUI/Storage (4.5.1):
+    - Firebase/Storage (~> 4.0)
+    - SDWebImage (~> 4.0)
+  - GeoFire (2.0.0):
+    - Firebase/Database (~> 4.0)
+  - GoogleMaps (2.5.0):
+    - GoogleMaps/Maps (= 2.5.0)
+  - GoogleMaps/Base (2.5.0)
+  - GoogleMaps/Maps (2.5.0):
+    - GoogleMaps/Base
+  - GooglePlacePicker (2.5.0):
+    - GoogleMaps (= 2.5.0)
+    - GooglePlaces (= 2.5.0)
+  - GooglePlaces (2.5.0):
+    - GoogleMaps/Base (= 2.5.0)
+  - GoogleToolboxForMac/DebugUtils (2.1.3):
+    - GoogleToolboxForMac/Defines (= 2.1.3)
+  - GoogleToolboxForMac/Defines (2.1.3)
+  - GoogleToolboxForMac/Logger (2.1.3):
+    - GoogleToolboxForMac/Defines (= 2.1.3)
+  - GoogleToolboxForMac/NSData+zlib (2.1.3):
+    - GoogleToolboxForMac/Defines (= 2.1.3)
+  - GoogleToolboxForMac/NSDictionary+URLArguments (2.1.3):
+    - GoogleToolboxForMac/DebugUtils (= 2.1.3)
+    - GoogleToolboxForMac/Defines (= 2.1.3)
+    - GoogleToolboxForMac/NSString+URLArguments (= 2.1.3)
+  - GoogleToolboxForMac/NSString+URLArguments (2.1.3)
+  - GTMSessionFetcher/Core (1.1.12)
+  - IQKeyboardManagerSwift (5.0.7)
+  - JSQMessagesViewController (7.3.4)
+  - Koloda (4.3.1):
+    - pop (~> 1.0)
+  - leveldb-library (1.20)
+  - MBProgressHUD (1.1.0)
+  - nanopb (0.3.8):
+    - nanopb/decode (= 0.3.8)
+    - nanopb/encode (= 0.3.8)
+  - nanopb/decode (0.3.8)
+  - nanopb/encode (0.3.8)
+  - pop (1.0.10)
+  - Protobuf (3.5.0)
+  - Pulley (1.5.2)
+  - RFQuiltLayout (1.1.1)
+  - SDWebImage (4.2.3):
+    - SDWebImage/Core (= 4.2.3)
+  - SDWebImage/Core (4.2.3)
+  - Segmentio (2.1.2)
+  - SideMenu (3.1.5)
+  - SimpleImageViewer (1.1.1)
+  - SwiftyStoreKit (0.12.1)
+  - TagListView (1.2.0)
+  - UITextView+Placeholder (1.2.0)
+
+DEPENDENCIES:
+  - Braintree
+  - BraintreeDropIn
+  - CropViewController
+  - Firebase/Auth
+  - Firebase/Core
+  - Firebase/Database
+  - Firebase/Messaging
+  - Firebase/Storage
+  - FirebaseUI/Storage
+  - GeoFire
+  - GoogleMaps
+  - GooglePlacePicker
+  - GooglePlaces
+  - IQKeyboardManagerSwift
+  - JSQMessagesViewController (from `https://github.com/jessesquires/JSQMessagesViewController.git`, branch `develop`)
+  - Koloda
+  - MBProgressHUD (~> 1.1.0)
+  - Pulley (from `https://github.com/52inc/Pulley.git`, branch `swift-3.1`)
+  - RFQuiltLayout
+  - Segmentio
+  - SideMenu
+  - SimpleImageViewer (~> 1.1.1)
+  - SwiftyStoreKit
+  - TagListView (~> 1.2.0)
+  - UITextView+Placeholder (~> 1.2)
+
+EXTERNAL SOURCES:
+  JSQMessagesViewController:
+    :branch: develop
+    :git: https://github.com/jessesquires/JSQMessagesViewController.git
+  Pulley:
+    :branch: swift-3.1
+    :git: https://github.com/52inc/Pulley.git
+
+CHECKOUT OPTIONS:
+  JSQMessagesViewController:
+    :commit: c247626cdb31724ae706733ce7bd8eb4bd2d2513
+    :git: https://github.com/jessesquires/JSQMessagesViewController.git
+  Pulley:
+    :commit: f7bb2cd7f8c33b92c9d3b030ebd2105c9a1db8a4
+    :git: https://github.com/52inc/Pulley.git
+
+SPEC CHECKSUMS:
+  Braintree: 424a8b0bf1d31fe1110035cfde438701e1425c1a
+  BraintreeDropIn: 5882cca8dc3c4a5b8f11faa44fca52323253c857
+  CropViewController: e6d4bd512d15a1709e9ddf71fe7d98ffd05dda0f
+  Firebase: 710decbbc6d9d48530e9a5dba3209740c3532e05
+  FirebaseAnalytics: 5b02a63ead2c3f0259cfc7f15e053e440587ecf8
+  FirebaseAuth: dc0dd403beca5b2b016aac89c2d0b8dad1c81926
+  FirebaseCore: 3c02ec652db3d03fdc8bc6d9154af3e20d64b6f5
+  FirebaseDatabase: 7088bfc4af2cc00231bb36e1404fc2d7509eb4dc
+  FirebaseInstanceID: 81df5805a08001e69138664bdd02c6719a9ac80f
+  FirebaseMessaging: dfdcd307c2382290a1e297a81d0f18370f5b1bcd
+  FirebaseStorage: ab08d1c93a2feffa038fdd6693088b310ab1e6c6
+  FirebaseUI: 1dc9c8a87a776b488a28a28541f029e60c824cfd
+  GeoFire: 12dde45333e02aace5a8d921749095b9135cabc1
+  GoogleMaps: c087b8e5dfe87ca6ebf59adb9b4894a4146bec4f
+  GooglePlacePicker: 1573e644ab54564d95c2643edc0f29091609e966
+  GooglePlaces: dd70d9d71ea1c7944846afe67de3712c99b30a77
+  GoogleToolboxForMac: 2501e2ad72a52eb3dfe7bd9aee7dad11b858bd20
+  GTMSessionFetcher: ebaa1f79a5366922c1735f1566901f50beba23b7
+  IQKeyboardManagerSwift: 30fb3a61de1af53a95e02b80fb54ed0a19d5ede5
+  JSQMessagesViewController: c11b9e77372ab72c45c67311f6da7342e32df1e8
+  Koloda: 0d39b2aa188ccd1fac48d752acaf9802e683c625
+  leveldb-library: 08cba283675b7ed2d99629a4bc5fd052cd2bb6a5
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  nanopb: 5601e6bca2dbf1ed831b519092ec110f66982ca3
+  pop: 82ca6b068ce9278fd350fd9dd09482a0ce9492e6
+  Protobuf: 8a9838fba8dae3389230e1b7f8c104aa32389c03
+  Pulley: 7f854a54cd98a8f482edc8411ad62cb4ff222da8
+  RFQuiltLayout: aa28fc2d4a262fbca7caa43d9d8ef4b4726c8cd4
+  SDWebImage: 791bb72962b3492327ddcac4b1880bd1b5458431
+  Segmentio: f85114993e305bd9c522952eef8c2c4db732fd17
+  SideMenu: 47dbf9e4d878062d8994aed43f6e4bf6c1fea30b
+  SimpleImageViewer: 34c3a2cde2d9ac022146772cefc27fca14b0c8b1
+  SwiftyStoreKit: 98742f9d7941ecaca0f248de0f49c5ecf585bc95
+  TagListView: 999e1df50c0f6b9ca927fae705c86a7e3b6ee9ba
+  UITextView+Placeholder: 77680995fcdd07c3f52ec92fe1150874a2ac89ff
+
+PODFILE CHECKSUM: a71ba29b0ff625633071025d265767eea7b07e0d
+
+COCOAPODS: 1.4.0

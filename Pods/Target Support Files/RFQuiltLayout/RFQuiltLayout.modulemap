@@ -1,0 +1,6 @@
+framework module RFQuiltLayout {
+  umbrella header "RFQuiltLayout-umbrella.h"
+
+  export *
+  module * { export * }
+}

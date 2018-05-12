@@ -1,0 +1,778 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B0CBF9C200DDB67000AA496 /* AppUserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0CBF9B200DDB67000AA496 /* AppUserDefaults.swift */; };
+		1B0CBF9E200DDD32000AA496 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1B0CBF9D200DDD32000AA496 /* GoogleService-Info.plist */; };
+		1B0CBFA0200EDFBC000AA496 /* SignupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0CBF9F200EDFBC000AA496 /* SignupVC.swift */; };
+		1B0CBFA2200EDFCD000AA496 /* SigninVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0CBFA1200EDFCD000AA496 /* SigninVC.swift */; };
+		1B0CBFA4200EF810000AA496 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0CBFA3200EF810000AA496 /* Helper.swift */; };
+		1B277617200DB9E700AE0378 /* Checkbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B277616200DB9E700AE0378 /* Checkbox.swift */; };
+		1B67215020332254002E92C5 /* VideoHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B67214F20332254002E92C5 /* VideoHelper.swift */; };
+		1B672152203477F0002E92C5 /* DungeonFinderRootVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B672151203477F0002E92C5 /* DungeonFinderRootVC.swift */; };
+		1B67215420349565002E92C5 /* DungeonDrawerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B67215320349565002E92C5 /* DungeonDrawerVC.swift */; };
+		1B701C992015C5160041F04B /* KinkCardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B701C982015C5160041F04B /* KinkCardView.xib */; };
+		1B701C9B2015C5F00041F04B /* KinkCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B701C9A2015C5F00041F04B /* KinkCardView.swift */; };
+		1B701C9D201708660041F04B /* KinkCardOverlayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B701C9C201708660041F04B /* KinkCardOverlayView.xib */; };
+		1B701C9F201708A70041F04B /* KinkCardOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B701C9E201708A70041F04B /* KinkCardOverlayView.swift */; };
+		1B7215FE2025A69800C687F2 /* Review.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7215FD2025A69800C687F2 /* Review.swift */; };
+		1B7216002025B33800C687F2 /* WriteReviewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7215FF2025B33800C687F2 /* WriteReviewVC.swift */; };
+		1B7BA559202C28920061FAFD /* PhotoMediaItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7BA558202C28920061FAFD /* PhotoMediaItem.swift */; };
+		1B7C40E9202444D80085F9C5 /* DungeonPhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7C40E8202444D80085F9C5 /* DungeonPhotoCollectionViewCell.swift */; };
+		1B7DAB66201324A00009B575 /* UploadPicVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7DAB65201324A00009B575 /* UploadPicVC.swift */; };
+		1B9B65F92034AC2F00C9A2E0 /* DungeonCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9B65F82034AC2F00C9A2E0 /* DungeonCollectionViewCell.swift */; };
+		1B9D899D20172AB700C2BBD9 /* KinkTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9D899C20172AB700C2BBD9 /* KinkTableViewCell.swift */; };
+		1B9EB42F20259A78008A3E29 /* DungeonViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9EB42E20259A78008A3E29 /* DungeonViewVC.swift */; };
+		1B9EB43120259AAB008A3E29 /* ReviewView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B9EB43020259AAB008A3E29 /* ReviewView.xib */; };
+		1B9EB43320259AC5008A3E29 /* ReviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9EB43220259AC5008A3E29 /* ReviewView.swift */; };
+		1BA5F412201EBA360045E244 /* DungeonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA5F411201EBA360045E244 /* DungeonTableViewCell.swift */; };
+		1BA5F414201EBB120045E244 /* Dungeon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA5F413201EBB120045E244 /* Dungeon.swift */; };
+		1BA5F416201EEB0A0045E244 /* EditDungeonVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA5F415201EEB0A0045E244 /* EditDungeonVC.swift */; };
+		1BC4A1DB200F61E300E8959A /* BaseVCHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC4A1DA200F61E300E8959A /* BaseVCHelper.swift */; };
+		1BC4A1DD200F62E600E8959A /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC4A1DC200F62E600E8959A /* ProfileVC.swift */; };
+		1BC4A1DF2010464D00E8959A /* MessagesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC4A1DE2010464D00E8959A /* MessagesVC.swift */; };
+		1BC4A1E12010466F00E8959A /* FindKinkMatchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC4A1E02010466F00E8959A /* FindKinkMatchVC.swift */; };
+		1BC4A1E32010469000E8959A /* DungeonsNearMeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC4A1E22010469000E8959A /* DungeonsNearMeVC.swift */; };
+		1BC4A1E5201046BB00E8959A /* ListMyDungeonsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC4A1E4201046BB00E8959A /* ListMyDungeonsVC.swift */; };
+		1BC4A1E7201046D300E8959A /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC4A1E6201046D300E8959A /* SettingsVC.swift */; };
+		1BC4A1E92011D70B00E8959A /* FirebaseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC4A1E82011D70B00E8959A /* FirebaseHelper.swift */; };
+		1BC4A1EB2011DD4700E8959A /* MenuTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC4A1EA2011DD4700E8959A /* MenuTableVC.swift */; };
+		1BC4A1ED2011EA1300E8959A /* EditBioVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC4A1EC2011EA1300E8959A /* EditBioVC.swift */; };
+		1BC4A1EF2011F43E00E8959A /* ChooseFetishesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC4A1EE2011F43E00E8959A /* ChooseFetishesVC.swift */; };
+		1BC4A1F1201215B200E8959A /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC4A1F0201215B200E8959A /* User.swift */; };
+		1BD1F02E200C98E600657E41 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD1F02D200C98E600657E41 /* AppDelegate.swift */; };
+		1BD1F033200C98E600657E41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BD1F031200C98E600657E41 /* Main.storyboard */; };
+		1BD1F035200C98E600657E41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BD1F034200C98E600657E41 /* Assets.xcassets */; };
+		1BD1F038200C98E600657E41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BD1F036200C98E600657E41 /* LaunchScreen.storyboard */; };
+		1BD1F043200CD7BC00657E41 /* WelcomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD1F042200CD7BC00657E41 /* WelcomeVC.swift */; };
+		1BD1F045200CE74600657E41 /* AppContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD1F044200CE74600657E41 /* AppContent.swift */; };
+		1BD1F047200CE88400657E41 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD1F046200CE88400657E41 /* Extensions.swift */; };
+		1BD1F04A200CFB1500657E41 /* UnderLineTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD1F049200CFB1500657E41 /* UnderLineTextField.swift */; };
+		1BD1F04C200D044600657E41 /* PasswordTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD1F04B200D044600657E41 /* PasswordTextField.swift */; };
+		1BDBC4F220175B9C00A518E4 /* PublicProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDBC4F120175B9C00A518E4 /* PublicProfileVC.swift */; };
+		1BDBC4F42018229000A518E4 /* Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDBC4F32018229000A518E4 /* Chat.swift */; };
+		1BDBC4F62018732400A518E4 /* ChatChannelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDBC4F52018732400A518E4 /* ChatChannelTableViewCell.swift */; };
+		1BDBC4F82019C57300A518E4 /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDBC4F72019C57300A518E4 /* ChatVC.swift */; };
+		1BEEF0A32028208500364DD7 /* Slider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEEF0A22028208500364DD7 /* Slider.swift */; };
+		1BEEF0A52028557800364DD7 /* Score.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEEF0A42028557800364DD7 /* Score.swift */; };
+		1BF36837202A3BEB004A506E /* style.json in Resources */ = {isa = PBXBuildFile; fileRef = 1BF36836202A3B59004A506E /* style.json */; };
+		1BF36839202AF008004A506E /* Payment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF36838202AF007004A506E /* Payment.swift */; };
+		1BF3683B202AF4BC004A506E /* FeatureDungeonVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF3683A202AF4BC004A506E /* FeatureDungeonVC.swift */; };
+		1BF6F619205372AE00B9BDE4 /* UIBarButtonItem+Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF6F618205372AE00B9BDE4 /* UIBarButtonItem+Badge.swift */; };
+		1BF85B35201F198600FB8985 /* LocationPickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF85B34201F198600FB8985 /* LocationPickerVC.swift */; };
+		1BFBFC8B202302C6009FEEE9 /* DungeonInfoWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1BFBFC8A202302C6009FEEE9 /* DungeonInfoWindow.xib */; };
+		1BFBFC8D202302E1009FEEE9 /* DungeonInfoWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BFBFC8C202302E1009FEEE9 /* DungeonInfoWindow.swift */; };
+		69BCFACA97E3C6909314943E /* Pods_Spankrr.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCA00A66F48DECA28EB7E88A /* Pods_Spankrr.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1B0CBF9B200DDB67000AA496 /* AppUserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUserDefaults.swift; sourceTree = "<group>"; };
+		1B0CBF9D200DDD32000AA496 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1B0CBF9F200EDFBC000AA496 /* SignupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupVC.swift; sourceTree = "<group>"; };
+		1B0CBFA1200EDFCD000AA496 /* SigninVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninVC.swift; sourceTree = "<group>"; };
+		1B0CBFA3200EF810000AA496 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		1B277616200DB9E700AE0378 /* Checkbox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Checkbox.swift; sourceTree = "<group>"; };
+		1B67214F20332254002E92C5 /* VideoHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoHelper.swift; sourceTree = "<group>"; };
+		1B672151203477F0002E92C5 /* DungeonFinderRootVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DungeonFinderRootVC.swift; sourceTree = "<group>"; };
+		1B67215320349565002E92C5 /* DungeonDrawerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DungeonDrawerVC.swift; sourceTree = "<group>"; };
+		1B701C982015C5160041F04B /* KinkCardView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KinkCardView.xib; sourceTree = "<group>"; };
+		1B701C9A2015C5F00041F04B /* KinkCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KinkCardView.swift; sourceTree = "<group>"; };
+		1B701C9C201708660041F04B /* KinkCardOverlayView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KinkCardOverlayView.xib; sourceTree = "<group>"; };
+		1B701C9E201708A70041F04B /* KinkCardOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KinkCardOverlayView.swift; sourceTree = "<group>"; };
+		1B7215FD2025A69800C687F2 /* Review.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Review.swift; sourceTree = "<group>"; };
+		1B7215FF2025B33800C687F2 /* WriteReviewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteReviewVC.swift; sourceTree = "<group>"; };
+		1B7BA558202C28920061FAFD /* PhotoMediaItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoMediaItem.swift; sourceTree = "<group>"; };
+		1B7C40E8202444D80085F9C5 /* DungeonPhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DungeonPhotoCollectionViewCell.swift; sourceTree = "<group>"; };
+		1B7DAB65201324A00009B575 /* UploadPicVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadPicVC.swift; sourceTree = "<group>"; };
+		1B9B65F82034AC2F00C9A2E0 /* DungeonCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DungeonCollectionViewCell.swift; sourceTree = "<group>"; };
+		1B9D899C20172AB700C2BBD9 /* KinkTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KinkTableViewCell.swift; sourceTree = "<group>"; };
+		1B9EB42E20259A78008A3E29 /* DungeonViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DungeonViewVC.swift; sourceTree = "<group>"; };
+		1B9EB43020259AAB008A3E29 /* ReviewView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReviewView.xib; sourceTree = "<group>"; };
+		1B9EB43220259AC5008A3E29 /* ReviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewView.swift; sourceTree = "<group>"; };
+		1BA5F411201EBA360045E244 /* DungeonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DungeonTableViewCell.swift; sourceTree = "<group>"; };
+		1BA5F413201EBB120045E244 /* Dungeon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dungeon.swift; sourceTree = "<group>"; };
+		1BA5F415201EEB0A0045E244 /* EditDungeonVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditDungeonVC.swift; sourceTree = "<group>"; };
+		1BAAC17920514D4300199C52 /* Spankrr.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Spankrr.entitlements; sourceTree = "<group>"; };
+		1BC4A1DA200F61E300E8959A /* BaseVCHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseVCHelper.swift; sourceTree = "<group>"; };
+		1BC4A1DC200F62E600E8959A /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		1BC4A1DE2010464D00E8959A /* MessagesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesVC.swift; sourceTree = "<group>"; };
+		1BC4A1E02010466F00E8959A /* FindKinkMatchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindKinkMatchVC.swift; sourceTree = "<group>"; };
+		1BC4A1E22010469000E8959A /* DungeonsNearMeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DungeonsNearMeVC.swift; sourceTree = "<group>"; };
+		1BC4A1E4201046BB00E8959A /* ListMyDungeonsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListMyDungeonsVC.swift; sourceTree = "<group>"; };
+		1BC4A1E6201046D300E8959A /* SettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
+		1BC4A1E82011D70B00E8959A /* FirebaseHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseHelper.swift; sourceTree = "<group>"; };
+		1BC4A1EA2011DD4700E8959A /* MenuTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableVC.swift; sourceTree = "<group>"; };
+		1BC4A1EC2011EA1300E8959A /* EditBioVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditBioVC.swift; sourceTree = "<group>"; };
+		1BC4A1EE2011F43E00E8959A /* ChooseFetishesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseFetishesVC.swift; sourceTree = "<group>"; };
+		1BC4A1F0201215B200E8959A /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		1BD1F02A200C98E600657E41 /* Spankrr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spankrr.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BD1F02D200C98E600657E41 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1BD1F032200C98E600657E41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1BD1F034200C98E600657E41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1BD1F037200C98E600657E41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1BD1F039200C98E600657E41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BD1F042200CD7BC00657E41 /* WelcomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeVC.swift; sourceTree = "<group>"; };
+		1BD1F044200CE74600657E41 /* AppContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppContent.swift; sourceTree = "<group>"; };
+		1BD1F046200CE88400657E41 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		1BD1F049200CFB1500657E41 /* UnderLineTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnderLineTextField.swift; sourceTree = "<group>"; };
+		1BD1F04B200D044600657E41 /* PasswordTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordTextField.swift; sourceTree = "<group>"; };
+		1BDBC4F120175B9C00A518E4 /* PublicProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublicProfileVC.swift; sourceTree = "<group>"; };
+		1BDBC4F32018229000A518E4 /* Chat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat.swift; sourceTree = "<group>"; };
+		1BDBC4F52018732400A518E4 /* ChatChannelTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatChannelTableViewCell.swift; sourceTree = "<group>"; };
+		1BDBC4F72019C57300A518E4 /* ChatVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
+		1BEEF0A22028208500364DD7 /* Slider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slider.swift; sourceTree = "<group>"; };
+		1BEEF0A42028557800364DD7 /* Score.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Score.swift; sourceTree = "<group>"; };
+		1BF36836202A3B59004A506E /* style.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = style.json; sourceTree = "<group>"; };
+		1BF36838202AF007004A506E /* Payment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Payment.swift; sourceTree = "<group>"; };
+		1BF3683A202AF4BC004A506E /* FeatureDungeonVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureDungeonVC.swift; sourceTree = "<group>"; };
+		1BF6F618205372AE00B9BDE4 /* UIBarButtonItem+Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+Badge.swift"; sourceTree = "<group>"; };
+		1BF85B34201F198600FB8985 /* LocationPickerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPickerVC.swift; sourceTree = "<group>"; };
+		1BFBFC8A202302C6009FEEE9 /* DungeonInfoWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DungeonInfoWindow.xib; sourceTree = "<group>"; };
+		1BFBFC8C202302E1009FEEE9 /* DungeonInfoWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DungeonInfoWindow.swift; sourceTree = "<group>"; };
+		2D09F4061E3EE7082CA91C24 /* Pods-Spankrr.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spankrr.release.xcconfig"; path = "Pods/Target Support Files/Pods-Spankrr/Pods-Spankrr.release.xcconfig"; sourceTree = "<group>"; };
+		3F39C74F8E8DDF55D3D26876 /* Pods-Spankrr.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spankrr.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Spankrr/Pods-Spankrr.debug.xcconfig"; sourceTree = "<group>"; };
+		FCA00A66F48DECA28EB7E88A /* Pods_Spankrr.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Spankrr.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1BD1F027200C98E600657E41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69BCFACA97E3C6909314943E /* Pods_Spankrr.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B7DAB67201324A50009B575 /* Signin */ = {
+			isa = PBXGroup;
+			children = (
+				1BD1F042200CD7BC00657E41 /* WelcomeVC.swift */,
+				1B0CBF9F200EDFBC000AA496 /* SignupVC.swift */,
+				1B0CBFA1200EDFCD000AA496 /* SigninVC.swift */,
+			);
+			path = Signin;
+			sourceTree = "<group>";
+		};
+		1B7DAB69201324CC0009B575 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				1BC4A1DC200F62E600E8959A /* ProfileVC.swift */,
+				1BC4A1EE2011F43E00E8959A /* ChooseFetishesVC.swift */,
+				1BC4A1EC2011EA1300E8959A /* EditBioVC.swift */,
+				1B7DAB65201324A00009B575 /* UploadPicVC.swift */,
+				1BDBC4F120175B9C00A518E4 /* PublicProfileVC.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		1B7DAB6A201325250009B575 /* Messages */ = {
+			isa = PBXGroup;
+			children = (
+				1BC4A1DE2010464D00E8959A /* MessagesVC.swift */,
+				1BDBC4F32018229000A518E4 /* Chat.swift */,
+				1BDBC4F52018732400A518E4 /* ChatChannelTableViewCell.swift */,
+				1BDBC4F72019C57300A518E4 /* ChatVC.swift */,
+				1B7BA558202C28920061FAFD /* PhotoMediaItem.swift */,
+			);
+			path = Messages;
+			sourceTree = "<group>";
+		};
+		1B7DAB6B201325340009B575 /* FindMatch */ = {
+			isa = PBXGroup;
+			children = (
+				1BC4A1E02010466F00E8959A /* FindKinkMatchVC.swift */,
+				1B701C9A2015C5F00041F04B /* KinkCardView.swift */,
+				1B701C982015C5160041F04B /* KinkCardView.xib */,
+				1B701C9E201708A70041F04B /* KinkCardOverlayView.swift */,
+				1B701C9C201708660041F04B /* KinkCardOverlayView.xib */,
+				1B9D899C20172AB700C2BBD9 /* KinkTableViewCell.swift */,
+			);
+			path = FindMatch;
+			sourceTree = "<group>";
+		};
+		1B7DAB6C201325410009B575 /* ListMyDungeons */ = {
+			isa = PBXGroup;
+			children = (
+				1BC4A1E4201046BB00E8959A /* ListMyDungeonsVC.swift */,
+				1BA5F411201EBA360045E244 /* DungeonTableViewCell.swift */,
+				1BA5F415201EEB0A0045E244 /* EditDungeonVC.swift */,
+				1B7C40E8202444D80085F9C5 /* DungeonPhotoCollectionViewCell.swift */,
+				1BF3683A202AF4BC004A506E /* FeatureDungeonVC.swift */,
+			);
+			path = ListMyDungeons;
+			sourceTree = "<group>";
+		};
+		1B7DAB6D2013255A0009B575 /* DungeonsNearMe */ = {
+			isa = PBXGroup;
+			children = (
+				1B672151203477F0002E92C5 /* DungeonFinderRootVC.swift */,
+				1BC4A1E22010469000E8959A /* DungeonsNearMeVC.swift */,
+				1B67215320349565002E92C5 /* DungeonDrawerVC.swift */,
+				1BFBFC8A202302C6009FEEE9 /* DungeonInfoWindow.xib */,
+				1BFBFC8C202302E1009FEEE9 /* DungeonInfoWindow.swift */,
+				1B9EB42E20259A78008A3E29 /* DungeonViewVC.swift */,
+				1B9EB43020259AAB008A3E29 /* ReviewView.xib */,
+				1B9EB43220259AC5008A3E29 /* ReviewView.swift */,
+				1B7215FF2025B33800C687F2 /* WriteReviewVC.swift */,
+				1B9B65F82034AC2F00C9A2E0 /* DungeonCollectionViewCell.swift */,
+			);
+			path = DungeonsNearMe;
+			sourceTree = "<group>";
+		};
+		1B7DAB6E201325780009B575 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				1BC4A1E6201046D300E8959A /* SettingsVC.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		1BD1F021200C98E600657E41 = {
+			isa = PBXGroup;
+			children = (
+				1BD1F02C200C98E600657E41 /* Spankrr */,
+				1BD1F02B200C98E600657E41 /* Products */,
+				7A22320FB1BB0183DAE5C24B /* Pods */,
+				5BBFCDC38E2DF3E5694F70F0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1BD1F02B200C98E600657E41 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1BD1F02A200C98E600657E41 /* Spankrr.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1BD1F02C200C98E600657E41 /* Spankrr */ = {
+			isa = PBXGroup;
+			children = (
+				1BAAC17920514D4300199C52 /* Spankrr.entitlements */,
+				1BD1F048200CFAA100657E41 /* Custom Controls */,
+				1BD1F041200C99F600657E41 /* Utils */,
+				1BD1F040200C99D200657E41 /* Models */,
+				1BD1F03F200C999B00657E41 /* View Controllers */,
+				1BD1F02D200C98E600657E41 /* AppDelegate.swift */,
+				1BD1F031200C98E600657E41 /* Main.storyboard */,
+				1BD1F034200C98E600657E41 /* Assets.xcassets */,
+				1BD1F036200C98E600657E41 /* LaunchScreen.storyboard */,
+				1BD1F039200C98E600657E41 /* Info.plist */,
+				1B0CBF9D200DDD32000AA496 /* GoogleService-Info.plist */,
+				1BF36836202A3B59004A506E /* style.json */,
+			);
+			path = Spankrr;
+			sourceTree = "<group>";
+		};
+		1BD1F03F200C999B00657E41 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1B7DAB67201324A50009B575 /* Signin */,
+				1B7DAB69201324CC0009B575 /* Profile */,
+				1B7DAB6A201325250009B575 /* Messages */,
+				1B7DAB6B201325340009B575 /* FindMatch */,
+				1B7DAB6C201325410009B575 /* ListMyDungeons */,
+				1B7DAB6D2013255A0009B575 /* DungeonsNearMe */,
+				1B7DAB6E201325780009B575 /* Settings */,
+				1BC4A1EA2011DD4700E8959A /* MenuTableVC.swift */,
+				1BC4A1DA200F61E300E8959A /* BaseVCHelper.swift */,
+				1BF85B34201F198600FB8985 /* LocationPickerVC.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		1BD1F040200C99D200657E41 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1BC4A1F0201215B200E8959A /* User.swift */,
+				1BA5F413201EBB120045E244 /* Dungeon.swift */,
+				1B7215FD2025A69800C687F2 /* Review.swift */,
+				1BEEF0A42028557800364DD7 /* Score.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1BD1F041200C99F600657E41 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				1BD1F044200CE74600657E41 /* AppContent.swift */,
+				1BD1F046200CE88400657E41 /* Extensions.swift */,
+				1B0CBF9B200DDB67000AA496 /* AppUserDefaults.swift */,
+				1B0CBFA3200EF810000AA496 /* Helper.swift */,
+				1BC4A1E82011D70B00E8959A /* FirebaseHelper.swift */,
+				1BF36838202AF007004A506E /* Payment.swift */,
+				1B67214F20332254002E92C5 /* VideoHelper.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		1BD1F048200CFAA100657E41 /* Custom Controls */ = {
+			isa = PBXGroup;
+			children = (
+				1BD1F049200CFB1500657E41 /* UnderLineTextField.swift */,
+				1BD1F04B200D044600657E41 /* PasswordTextField.swift */,
+				1B277616200DB9E700AE0378 /* Checkbox.swift */,
+				1BEEF0A22028208500364DD7 /* Slider.swift */,
+				1BF6F618205372AE00B9BDE4 /* UIBarButtonItem+Badge.swift */,
+			);
+			path = "Custom Controls";
+			sourceTree = "<group>";
+		};
+		5BBFCDC38E2DF3E5694F70F0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FCA00A66F48DECA28EB7E88A /* Pods_Spankrr.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7A22320FB1BB0183DAE5C24B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3F39C74F8E8DDF55D3D26876 /* Pods-Spankrr.debug.xcconfig */,
+				2D09F4061E3EE7082CA91C24 /* Pods-Spankrr.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1BD1F029200C98E600657E41 /* Spankrr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BD1F03C200C98E600657E41 /* Build configuration list for PBXNativeTarget "Spankrr" */;
+			buildPhases = (
+				BB23AADA0647575D21BBA2C4 /* [CP] Check Pods Manifest.lock */,
+				1BD1F026200C98E600657E41 /* Sources */,
+				1BD1F027200C98E600657E41 /* Frameworks */,
+				1BD1F028200C98E600657E41 /* Resources */,
+				EF49912ED14D48BF670876EA /* [CP] Embed Pods Frameworks */,
+				E75C143B30361B66781D64E1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Spankrr;
+			productName = Spankrr;
+			productReference = 1BD1F02A200C98E600657E41 /* Spankrr.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1BD1F022200C98E600657E41 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = Kangtle;
+				TargetAttributes = {
+					1BD1F029200C98E600657E41 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 1BD1F025200C98E600657E41 /* Build configuration list for PBXProject "Spankrr" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1BD1F021200C98E600657E41;
+			productRefGroup = 1BD1F02B200C98E600657E41 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1BD1F029200C98E600657E41 /* Spankrr */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1BD1F028200C98E600657E41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BD1F038200C98E600657E41 /* LaunchScreen.storyboard in Resources */,
+				1B0CBF9E200DDD32000AA496 /* GoogleService-Info.plist in Resources */,
+				1B701C9D201708660041F04B /* KinkCardOverlayView.xib in Resources */,
+				1BF36837202A3BEB004A506E /* style.json in Resources */,
+				1BD1F035200C98E600657E41 /* Assets.xcassets in Resources */,
+				1B9EB43120259AAB008A3E29 /* ReviewView.xib in Resources */,
+				1BFBFC8B202302C6009FEEE9 /* DungeonInfoWindow.xib in Resources */,
+				1BD1F033200C98E600657E41 /* Main.storyboard in Resources */,
+				1B701C992015C5160041F04B /* KinkCardView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BB23AADA0647575D21BBA2C4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Spankrr-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E75C143B30361B66781D64E1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Spankrr/Pods-Spankrr-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Resources/GooglePlacePicker.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlacePicker.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Spankrr/Pods-Spankrr-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF49912ED14D48BF670876EA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Spankrr/Pods-Spankrr-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Braintree/Braintree.framework",
+				"${BUILT_PRODUCTS_DIR}/BraintreeDropIn/BraintreeDropIn.framework",
+				"${BUILT_PRODUCTS_DIR}/CropViewController/CropViewController.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GeoFire/GeoFire.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/JSQMessagesViewController/JSQMessagesViewController.framework",
+				"${BUILT_PRODUCTS_DIR}/Koloda/Koloda.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/Pulley/Pulley.framework",
+				"${BUILT_PRODUCTS_DIR}/RFQuiltLayout/RFQuiltLayout.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/Segmentio/Segmentio.framework",
+				"${BUILT_PRODUCTS_DIR}/SideMenu/SideMenu.framework",
+				"${BUILT_PRODUCTS_DIR}/SimpleImageViewer/SimpleImageViewer.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyStoreKit/SwiftyStoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/TagListView/TagListView.framework",
+				"${BUILT_PRODUCTS_DIR}/UITextView+Placeholder/UITextView_Placeholder.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+				"${BUILT_PRODUCTS_DIR}/pop/pop.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Braintree.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BraintreeDropIn.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CropViewController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GeoFire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSQMessagesViewController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Koloda.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Pulley.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RFQuiltLayout.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Segmentio.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SideMenu.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SimpleImageViewer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyStoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TagListView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UITextView_Placeholder.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/pop.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Spankrr/Pods-Spankrr-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1BD1F026200C98E600657E41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B7BA559202C28920061FAFD /* PhotoMediaItem.swift in Sources */,
+				1BC4A1E5201046BB00E8959A /* ListMyDungeonsVC.swift in Sources */,
+				1BA5F416201EEB0A0045E244 /* EditDungeonVC.swift in Sources */,
+				1BA5F414201EBB120045E244 /* Dungeon.swift in Sources */,
+				1BDBC4F220175B9C00A518E4 /* PublicProfileVC.swift in Sources */,
+				1B0CBFA4200EF810000AA496 /* Helper.swift in Sources */,
+				1BC4A1E92011D70B00E8959A /* FirebaseHelper.swift in Sources */,
+				1B0CBF9C200DDB67000AA496 /* AppUserDefaults.swift in Sources */,
+				1B67215020332254002E92C5 /* VideoHelper.swift in Sources */,
+				1B672152203477F0002E92C5 /* DungeonFinderRootVC.swift in Sources */,
+				1BC4A1E12010466F00E8959A /* FindKinkMatchVC.swift in Sources */,
+				1BD1F045200CE74600657E41 /* AppContent.swift in Sources */,
+				1BDBC4F62018732400A518E4 /* ChatChannelTableViewCell.swift in Sources */,
+				1BA5F412201EBA360045E244 /* DungeonTableViewCell.swift in Sources */,
+				1BF85B35201F198600FB8985 /* LocationPickerVC.swift in Sources */,
+				1BF3683B202AF4BC004A506E /* FeatureDungeonVC.swift in Sources */,
+				1BDBC4F42018229000A518E4 /* Chat.swift in Sources */,
+				1B7DAB66201324A00009B575 /* UploadPicVC.swift in Sources */,
+				1BF36839202AF008004A506E /* Payment.swift in Sources */,
+				1B9EB42F20259A78008A3E29 /* DungeonViewVC.swift in Sources */,
+				1BC4A1EF2011F43E00E8959A /* ChooseFetishesVC.swift in Sources */,
+				1B0CBFA2200EDFCD000AA496 /* SigninVC.swift in Sources */,
+				1BC4A1E32010469000E8959A /* DungeonsNearMeVC.swift in Sources */,
+				1BD1F02E200C98E600657E41 /* AppDelegate.swift in Sources */,
+				1BFBFC8D202302E1009FEEE9 /* DungeonInfoWindow.swift in Sources */,
+				1B0CBFA0200EDFBC000AA496 /* SignupVC.swift in Sources */,
+				1B7216002025B33800C687F2 /* WriteReviewVC.swift in Sources */,
+				1B701C9B2015C5F00041F04B /* KinkCardView.swift in Sources */,
+				1BC4A1DF2010464D00E8959A /* MessagesVC.swift in Sources */,
+				1B9B65F92034AC2F00C9A2E0 /* DungeonCollectionViewCell.swift in Sources */,
+				1BD1F04C200D044600657E41 /* PasswordTextField.swift in Sources */,
+				1BC4A1DB200F61E300E8959A /* BaseVCHelper.swift in Sources */,
+				1B7215FE2025A69800C687F2 /* Review.swift in Sources */,
+				1BDBC4F82019C57300A518E4 /* ChatVC.swift in Sources */,
+				1BC4A1DD200F62E600E8959A /* ProfileVC.swift in Sources */,
+				1BD1F04A200CFB1500657E41 /* UnderLineTextField.swift in Sources */,
+				1BF6F619205372AE00B9BDE4 /* UIBarButtonItem+Badge.swift in Sources */,
+				1B277617200DB9E700AE0378 /* Checkbox.swift in Sources */,
+				1BD1F043200CD7BC00657E41 /* WelcomeVC.swift in Sources */,
+				1B701C9F201708A70041F04B /* KinkCardOverlayView.swift in Sources */,
+				1B9EB43320259AC5008A3E29 /* ReviewView.swift in Sources */,
+				1BEEF0A32028208500364DD7 /* Slider.swift in Sources */,
+				1BD1F047200CE88400657E41 /* Extensions.swift in Sources */,
+				1BC4A1ED2011EA1300E8959A /* EditBioVC.swift in Sources */,
+				1BC4A1EB2011DD4700E8959A /* MenuTableVC.swift in Sources */,
+				1BEEF0A52028557800364DD7 /* Score.swift in Sources */,
+				1BC4A1E7201046D300E8959A /* SettingsVC.swift in Sources */,
+				1B7C40E9202444D80085F9C5 /* DungeonPhotoCollectionViewCell.swift in Sources */,
+				1B67215420349565002E92C5 /* DungeonDrawerVC.swift in Sources */,
+				1B9D899D20172AB700C2BBD9 /* KinkTableViewCell.swift in Sources */,
+				1BC4A1F1201215B200E8959A /* User.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1BD1F031200C98E600657E41 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1BD1F032200C98E600657E41 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1BD1F036200C98E600657E41 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1BD1F037200C98E600657E41 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1BD1F03A200C98E600657E41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1BD1F03B200C98E600657E41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1BD1F03D200C98E600657E41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F39C74F8E8DDF55D3D26876 /* Pods-Spankrr.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Spankrr/Spankrr.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6P9B2VFM6A;
+				INFOPLIST_FILE = Spankrr/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.abbey.Spankrr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1BD1F03E200C98E600657E41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D09F4061E3EE7082CA91C24 /* Pods-Spankrr.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Spankrr/Spankrr.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6P9B2VFM6A;
+				INFOPLIST_FILE = Spankrr/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.abbey.Spankrr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1BD1F025200C98E600657E41 /* Build configuration list for PBXProject "Spankrr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BD1F03A200C98E600657E41 /* Debug */,
+				1BD1F03B200C98E600657E41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1BD1F03C200C98E600657E41 /* Build configuration list for PBXNativeTarget "Spankrr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BD1F03D200C98E600657E41 /* Debug */,
+				1BD1F03E200C98E600657E41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1BD1F022200C98E600657E41 /* Project object */;
+}

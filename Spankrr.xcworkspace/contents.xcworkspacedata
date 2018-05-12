@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:Spankrr.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+   <Group
+      location = "group:functions"
+      name = "functions">
+      <FileRef
+         location = "group:index.js">
+      </FileRef>
+      <FileRef
+         location = "group:package-lock.json">
+      </FileRef>
+      <FileRef
+         location = "group:package.json">
+      </FileRef>
+   </Group>
+</Workspace>
